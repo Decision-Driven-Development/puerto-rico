@@ -1,0 +1,6 @@
+CND;table::player1;undefined
+OUT;available;true;false
+ASG;table::minPlayers;3
+ASG;table::maxPlayers;5
+ASG;table::player1;${request::player}
+ASG;table::playersNum;1
