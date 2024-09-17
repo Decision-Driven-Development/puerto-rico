@@ -1,0 +1,5 @@
+CND;function::table-player-at-table;false
+CND;table::playersNum;<table::maxPlayers
+OUT;available;true;false
+ASG;table::player${function::table-next-player-num};${request::player}
+ASG;table::playersNum;${function::table-next-player-num}
