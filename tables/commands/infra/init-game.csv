@@ -1,0 +1,9 @@
+HDR;table initialization command;3 players;4 players;5 players
+CND;table::playersNum;3;4;5
+CND;player1::name;undefined;undefined;undefined
+OUT;available;true;true;true;false
+ASG;player1::name;${function::table-player-1};${function::table-player-1}; ${function::table-player-1}
+ASG;player2::name;${function::table-player-2};${function::table-player-2}; ${function::table-player-2}
+ASG;player3::name;${function::table-player-3};${function::table-player-3}; ${function::table-player-3}
+ASG;player4::name;;${function::table-player-4};${function::table-player-4}
+ASG;player5::name;;;${function::table-player-5}
