@@ -7,3 +7,8 @@ ASG;player2::name;${function::table-player-2};${function::table-player-2}; ${fun
 ASG;player3::name;${function::table-player-3};${function::table-player-3}; ${function::table-player-3}
 ASG;player4::name;;${function::table-player-4};${function::table-player-4}
 ASG;player5::name;;;${function::table-player-5}
+ASG;turnOrder::1;player1;player1;player1
+ASG;turnOrder::2;player2;player2;player2
+ASG;turnOrder::3;player3;player3;player3
+ASG;turnOrder::4;;player4;player4
+ASG;turnOrder::5;;;player5

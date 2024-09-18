@@ -1,0 +1,7 @@
+CND;request::player;!undefined;!undefined;!undefined;!undefined;!undefined
+CND;player1::name;request::player;~;~;~;~
+CND;player2::name;~;request::player;~;~;~
+CND;player3::name;~;~;request::player;~;~
+CND;player4::name;~;~;~;request::player;~
+CND;player5::name;~;~;~;~;request::player
+OUT;id;player1;player2;player3;player4;player5;no player found

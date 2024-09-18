@@ -6,6 +6,6 @@ locators:
   - player3
   - player4
   - player5
-  - phasePlayers
+  - turnOrder
   - board
   - phase
