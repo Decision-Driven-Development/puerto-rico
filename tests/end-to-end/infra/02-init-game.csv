@@ -1,19 +1,5 @@
 HDR ;02 - старт игры          ;3 игрока - успех ;4 игрока - успех ;5 игроков - успех ;недостаточно игроков
-ASG ;request::player          ;Alice            ;Alice            ;Alice             ;Alice
-EXE ;command                  ;create-table     ;create-table     ;create-table      ;create-table
-ASG ;request::player          ;Bob              ;Bob              ;Bob               ;
-EXE ;command                  ;join-table       ;join-table       ;join-table        ;
-ASG ;request::player          ;Charlie          ;Charlie          ;Charlie           ;
-EXE ;command                  ;join-table       ;join-table       ;join-table        ;
-ASG ;request::player          ;                 ;David            ;David             ;
-EXE ;command                  ;                 ;join-table       ;join-table        ;
-ASG ;request::player          ;                 ;                 ;Eve               ;
-EXE ;command                  ;                 ;                 ;join-table        ;
-ASG ;function::table-player-1 ;Alice            ;Alice            ;Alice             ;
-ASG ;function::table-player-2 ;Bob              ;Bob              ;Bob               ;
-ASG ;function::table-player-3 ;Charlie          ;Charlie          ;Charlie           ;
-ASG ;function::table-player-4 ;                 ;David            ;David             ;
-ASG ;function::table-player-5 ;                 ;                 ;Eve               ;
+EXE ;include;create-3-players-table;create-4-players-table;create-5-players-table;00-create-table
 CND ;init-game::available     ;true             ;true             ;true              ;false
 EXE ;command                  ;init-game        ;init-game        ;init-game         ;
 CND ;init-game::available     ;false            ;false            ;false             ;false
