@@ -1,0 +1,12 @@
+HDR;06 - завершение раунда;успех
+EXE;include;05-end-phase
+EXE;include;hlp-5p-2nd-phase
+EXE;include;hlp-5p-3rd-phase
+EXE;include;hlp-5p-4th-phase
+EXE;include;hlp-5p-5th-phase
+
+CND;end-phase::available;false
+CND;phase::role;undefined
+CND;player-order::current;player2
+CND;player2::acted;false
+CND;player2::role;undefined

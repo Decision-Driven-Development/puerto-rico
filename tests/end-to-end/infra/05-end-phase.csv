@@ -20,3 +20,10 @@ CND;end-phase::available;false
 ASG;request::player;Eve
 EXE;command;dummy-perform
 CND;end-phase::available;true
+
+EXE;command;end-phase
+CND;end-phase::available;false
+ASG;request::player;Alice
+CND;choose-dummy::available;false
+ASG;request::player;Bob
+CND;choose-dummy::available;true

@@ -5,3 +5,4 @@ CND;${turnOrder::3}::acted;false;false;false;false;false;false;true;false;false;
 CND;${turnOrder::4}::acted;~;~;~;false;false;false;false;false;false;false;false;true
 CND;${turnOrder::5}::acted;~;~;~;~;~;~;~;~;~;~;~;false
 OUT;current;${turnOrder::1};${turnOrder::2};${turnOrder::3};${turnOrder::1};${turnOrder::2};${turnOrder::3};${turnOrder::4};${turnOrder::1};${turnOrder::2};${turnOrder::3};${turnOrder::4};${turnOrder::5}
+OUT;next;${turnOrder::2};${turnOrder::3};${turnOrder::1};${turnOrder::2};${turnOrder::3};${turnOrder::4};${turnOrder::1};${turnOrder::2};${turnOrder::3};${turnOrder::4};${turnOrder::5};${turnOrder::1}

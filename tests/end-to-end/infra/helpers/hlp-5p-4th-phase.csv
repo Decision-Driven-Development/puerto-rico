@@ -1,0 +1,15 @@
+HDR;helper;5 players 4th phase
+ASG;request::player;David
+EXE;command;choose-dummy
+ASG;request::player;David
+EXE;command;dummy-perform
+ASG;request::player;Eve
+EXE;command;dummy-perform
+ASG;request::player;Alice
+EXE;command;dummy-perform
+ASG;request::player;Bob
+EXE;command;dummy-perform
+ASG;request::player;Charlie
+EXE;command;dummy-perform
+
+EXE;command;end-phase
