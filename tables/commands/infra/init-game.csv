@@ -3,10 +3,16 @@ CND;table::playersNum;3;4;5
 CND;player1::name;undefined;undefined;undefined
 OUT;available;true;true;true;false
 ASG;player1::name;${function::table-player-1};${function::table-player-1}; ${function::table-player-1}
+ASG;player1::acted;false;false;false
 ASG;player2::name;${function::table-player-2};${function::table-player-2}; ${function::table-player-2}
+ASG;player2::acted;false;false;false
 ASG;player3::name;${function::table-player-3};${function::table-player-3}; ${function::table-player-3}
+ASG;player3::acted;false;false;false
 ASG;player4::name;;${function::table-player-4};${function::table-player-4}
+ASG;player4::acted;~;false;false
 ASG;player5::name;;;${function::table-player-5}
+ASG;player5::acted;~;~;false
+ASG;phase::role;undefined
 ASG;turnOrder::1;player1;player1;player1
 ASG;turnOrder::2;player2;player2;player2
 ASG;turnOrder::3;player3;player3;player3

@@ -1,0 +1,7 @@
+CND;table::playersNum;3;3;3;4;4;4;4;5;5;5;5;5
+CND;${turnOrder::1}::acted;false;true;true;false;true;true;true;false;true;true;true;true
+CND;${turnOrder::2}::acted;false;false;true;false;false;true;true;false;false;true;true;true
+CND;${turnOrder::3}::acted;false;false;false;false;false;false;true;false;false;false;true;true
+CND;${turnOrder::4}::acted;~;~;~;false;false;false;false;false;false;false;false;true
+CND;${turnOrder::5}::acted;~;~;~;~;~;~;~;~;~;~;~;false
+OUT;current;${turnOrder::1};${turnOrder::2};${turnOrder::3};${turnOrder::1};${turnOrder::2};${turnOrder::3};${turnOrder::4};${turnOrder::1};${turnOrder::2};${turnOrder::3};${turnOrder::4};${turnOrder::5}

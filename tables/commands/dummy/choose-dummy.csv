@@ -1,4 +1,6 @@
 CND;name-to-id::id;turnOrder::1
 CND;${turnOrder::1}::role;undefined
+CND;phase::role;undefined
 OUT;available;true;false
 ASG;${turnOrder::1}::role;dummy
+ASG;phase::role;dummy
