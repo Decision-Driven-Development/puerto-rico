@@ -1,0 +1,17 @@
+HDR;end phase;3 players;4 players;5 players
+CND;table::playersNum;3;4;5
+CND;phase-status::done;true;true;true
+OUT;available;true;true;true;false
+ASG;phase::role;undefined;undefined;undefined
+ASG;turnOrder::temp;${turnOrder::1};${turnOrder::1};${turnOrder::1}
+ASG;turnOrder::1;${turnOrder::2};${turnOrder::2};${turnOrder::2}
+ASG;turnOrder::2;${turnOrder::3};${turnOrder::3};${turnOrder::3}
+ASG;turnOrder::3;${turnOrder::temp};${turnOrder::4};${turnOrder::4}
+ASG;turnOrder::4;;${turnOrder::temp};${turnOrder::5}
+ASG;turnOrder::5;;;${turnOrder::temp}
+ASG;turnOrder::temp;undefined;undefined;undefined
+ASG;player1::acted;false;false;false
+ASG;player2::acted;false;false;false
+ASG;player3::acted;false;false;false
+ASG;player4::acted;;false;false
+ASG;player5::acted;;;false

@@ -1,0 +1,7 @@
+CND;table::playersNum;3;4;5
+CND;player1::acted;true;true;true
+CND;player2::acted;true;true;true
+CND;player3::acted;true;true;true
+CND;player4::acted;~;true;true
+CND;player5::acted;~;~;true
+OUT;done;true;true;true;false
