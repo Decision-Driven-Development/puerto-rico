@@ -1,0 +1,5 @@
+HDR;Производство;Общая доступность действия
+CND;name-to-id::id;player-order::current
+CND;phase::role;craftsman
+OUT;available;true;false
+ASG;${player-order::current}::acted;true

@@ -1,0 +1,6 @@
+HDR;Получение плантаций;Общая доступность действия
+CND;name-to-id::id;player-order::current
+CND;phase::role;settler
+CND;request::plantation;undefined
+OUT;available;true;false
+ASG;${player-order::current}::acted;true

@@ -28,3 +28,11 @@ ASG;player2::role;;;;undefined;undefined;undefined
 ASG;player3::role;;;;undefined;undefined;undefined
 ASG;player4::role;;;;;undefined;undefined
 ASG;player5::role;;;;;;undefined
+ASG;board::builder;;;;${function::coins-builder};${function::coins-builder};${function::coins-builder}
+ASG;board::captain;;;;${function::coins-captain};${function::coins-captain};${function::coins-captain}
+ASG;board::craftsman;;;;${function::coins-craftsman};${function::coins-craftsman};${function::coins-craftsman}
+ASG;board::mayor;;;;${function::coins-mayor};${function::coins-mayor};${function::coins-mayor}
+ASG;board::settler;;;;${function::coins-settler};${function::coins-settler};${function::coins-settler}
+ASG;board::trader;;;;${function::coins-trader};${function::coins-trader};${function::coins-trader}
+ASG;board::prospector1;;;;;${function::coins-prospector1};${function::coins-prospector1}
+ASG;board::prospector2;;;;;;${function::coins-prospector2}

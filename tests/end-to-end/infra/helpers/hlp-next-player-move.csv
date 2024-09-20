@@ -1,5 +1,3 @@
 HDR;helper;next player move
 ASG;request::player;${player-order::current}::name
-EXE;command;choose-dummy
-ASG;request::player;${player-order::current}::name
-EXE;command;dummy-perform
+EXE;command;${phase::role}-perform
