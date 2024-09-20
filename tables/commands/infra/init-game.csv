@@ -4,14 +4,19 @@ CND;player1::name;undefined;undefined;undefined
 OUT;available;true;true;true;false
 ASG;player1::name;${function::table-player-1};${function::table-player-1}; ${function::table-player-1}
 ASG;player1::acted;false;false;false
+ASG;player1::coins;2;3;4
 ASG;player2::name;${function::table-player-2};${function::table-player-2}; ${function::table-player-2}
 ASG;player2::acted;false;false;false
+ASG;player2::coins;2;3;4
 ASG;player3::name;${function::table-player-3};${function::table-player-3}; ${function::table-player-3}
 ASG;player3::acted;false;false;false
+ASG;player3::coins;2;3;4
 ASG;player4::name;;${function::table-player-4};${function::table-player-4}
-ASG;player4::acted;~;false;false
+ASG;player4::acted;;false;false
+ASG;player4::coins;;3;4
 ASG;player5::name;;;${function::table-player-5}
-ASG;player5::acted;~;~;false
+ASG;player5::acted;;;false
+ASG;player5::coins;;;4
 ASG;phase::role;undefined;undefined;undefined
 ASG;phase::count;1;1;1
 ASG;turnOrder::1;player1;player1;player1
@@ -19,3 +24,5 @@ ASG;turnOrder::2;player2;player2;player2
 ASG;turnOrder::3;player3;player3;player3
 ASG;turnOrder::4;;player4;player4
 ASG;turnOrder::5;;;player5
+ASG;board::prospector1;undefined;0;0
+ASG;board::prospector2;undefined;undefined;0

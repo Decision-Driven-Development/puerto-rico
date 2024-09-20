@@ -1,0 +1,10 @@
+HDR;Золотоискатель 1 (выбор роли);неудача - нет роли для 3 игроков;неудача - роль занята;неудача - не тот игрок;успех - роль без монет;успех - роль с монетами
+EXE;include;create-3-players-table;create-4-players-table;create-5-players-table;create-5-players-table;create-4-players-table
+EXE;command;init-game;init-game;init-game;init-game;init-game
+ASG;request::player;Alice;Alice;Bob;Alice;Alice
+ASG;board::prospector1;undefined;taken;0;0;1
+CND;choose-prospector1::available;false;false;false;true;true
+EXE;command;;;;choose-prospector1;choose-prospector1
+CND;board::prospector1;;;;taken;taken
+CND;phase::role;;;;prospector1;prospector1
+CND;player1::coins;;;;5;5

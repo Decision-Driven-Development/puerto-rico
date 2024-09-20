@@ -1,0 +1,16 @@
+CND;table::playersNum;4;5;3
+CND;board::prospector1;!taken;!taken;~
+CND;current-player::role-chooser;true;true;true
+OUT;available;true;true;false;false
+ASG;phase::coins;${board::prospector1};${board::prospector1};
+ASG;${turnOrder::1}::coins;${function::card-coins};${function::card-coins};
+ASG;phase::coins;0;0;
+ASG;phase::role;prospector1;prospector1;
+ASG;board::prospector1;taken;taken;
+ASG;${turnOrder::1}::role;prospector1;prospector1;
+ASG;${turnOrder::1}::coins;${function::prospector-bonus};${function::prospector-bonus};
+ASG;player1::acted;true;true;
+ASG;player2::acted;true;true;
+ASG;player3::acted;true;true;
+ASG;player4::acted;true;true;
+ASG;player5::acted;;true;
