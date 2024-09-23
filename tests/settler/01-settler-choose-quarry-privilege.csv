@@ -1,0 +1,6 @@
+HDR;Поселенец (взятие каменоломни);привилегия роли
+EXE;include;00-settler-choose-availability
+ASG;request::player;Alice
+EXE;command;choose-settler
+ASG;request::player;Alice
+CND;settler-take-quarry::available;true
