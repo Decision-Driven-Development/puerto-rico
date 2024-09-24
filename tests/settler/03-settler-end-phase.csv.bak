@@ -1,0 +1,17 @@
+HDR;Поселенец;окончание фазы
+ASG;function::plantation-next;1
+EXE;include;01-settler-choose-quarry-role-chooser
+ASG;plantation20::owner;board
+ASG;plantation30::owner;board
+ASG;plantation40::owner;board
+ASG;request::player;Bob
+ASG;request::plantation;1
+EXE;command;settler-take-plantation
+ASG;request::player;Charlie
+ASG;request::plantation;30
+EXE;command;settler-take-plantation
+CND;settler-end-phase::available;true
+ASG;function::plantation-next;2
+EXE;command;settler-end-phase
+CND;plantation20::owner;drop
+CND;plantation40::owner;drop

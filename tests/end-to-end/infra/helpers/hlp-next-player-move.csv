@@ -1,3 +1,0 @@
-HDR;helper;next player move
-ASG;request::player;${player-order::current}::name
-EXE;command;${phase::role}-perform

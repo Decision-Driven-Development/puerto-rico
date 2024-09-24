@@ -1,0 +1,8 @@
+CND;name-to-id::id;player-order::current
+CND;${player-order::current}::acted;false
+CND;phase::role;settler
+CND;function::island-free-space;>0
+CND;plantation${request::plantation}::owner;board
+OUT;available;true;false
+ASG;plantation${request::plantation}::owner;${name-to-id::id}
+ASG;${player-order::current}::acted;true
