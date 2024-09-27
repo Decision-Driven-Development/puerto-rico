@@ -2,8 +2,10 @@ CND;name-to-id::id;player-order::current
 CND;name-to-id::id;turnOrder::1
 CND;${player-order::current}::acted;false
 CND;phase::role;settler
+CND;phase::privilege;undefined
 CND;function::quarry-available;!false
 CND;function::island-free-space;>0
 OUT;available;true;false
 ASG;${function::quarry-available}::owner;${name-to-id::id};
 ASG;${player-order::current}::acted;true
+ASG;phase::privilege;taken

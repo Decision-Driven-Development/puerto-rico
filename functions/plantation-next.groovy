@@ -10,9 +10,6 @@ def dropPlantations = []
     }
 }
 
-println "Stack: ${stackPlantations}"
-println "Drop: ${dropPlantations}"
-
 if (stackPlantations.size() > 0) {
     return stackPlantations.shuffled().first()
 }

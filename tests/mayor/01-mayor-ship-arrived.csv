@@ -1,0 +1,13 @@
+HDR;Мэр (прибытие корабля);Один колонист каждому игроку;Колонистов больше, чем игроков
+EXE;include;hlp-3-players-start-mayor-phase;hlp-3-players-start-mayor-phase
+ASG;board::colonistShip;3;5
+ASG;board::colonistReserve;1;1
+ASG;player1::colonists;3;0
+ASG;player2::colonists;2;0
+ASG;player3::colonists;1;0
+EXE;command;mayor-ship-arrived;mayor-ship-arrived
+CND;player1::colonists;5;3
+CND;player2::colonists;3;2
+CND;player3::colonists;2;1
+CND;board::colonistReserve;0;0
+CND;board::colonistShip;0;0

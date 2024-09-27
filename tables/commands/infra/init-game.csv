@@ -2,6 +2,9 @@ HDR;table initialization command;3 players;4 players;5 players
 CND;table::playersNum;3;4;5
 CND;player1::name;undefined;undefined;undefined
 OUT;available;true;true;true;false
+CMT;--------------------------------------------------------------------------------
+CMT;players initialization
+CMT;--------------------------------------------------------------------------------
 ASG;player1::name;${function::table-player-1};${function::table-player-1}; ${function::table-player-1}
 ASG;player1::acted;false;false;false
 ASG;player1::coins;2;3;4
@@ -17,6 +20,9 @@ ASG;player4::coins;;3;4
 ASG;player5::name;;;${function::table-player-5}
 ASG;player5::acted;;;false
 ASG;player5::coins;;;4
+CMT;--------------------------------------------------------------------------------
+CMT;phase initialization
+CMT;--------------------------------------------------------------------------------
 ASG;phase::role;undefined;undefined;undefined
 ASG;phase::count;1;1;1
 ASG;turnOrder::1;player1;player1;player1
@@ -24,6 +30,9 @@ ASG;turnOrder::2;player2;player2;player2
 ASG;turnOrder::3;player3;player3;player3
 ASG;turnOrder::4;;player4;player4
 ASG;turnOrder::5;;;player5
+CMT;--------------------------------------------------------------------------------
+CMT;board initialization
+CMT;--------------------------------------------------------------------------------
 ASG;board::builder;0;0;0
 ASG;board::captain;0;0;0
 ASG;board::craftsman;0;0;0
@@ -32,6 +41,11 @@ ASG;board::settler;0;0;0
 ASG;board::trader;0;0;0
 ASG;board::prospector1;undefined;0;0
 ASG;board::prospector2;undefined;undefined;0
+ASG;board::colonistReserve;55;75;95
+ASG;board::colonistShip;3;4;5
+CMT;--------------------------------------------------------------------------------
+CMT;plantations initialization
+CMT;--------------------------------------------------------------------------------
 ASG;plantation1::owner;stack;stack;stack
 ASG;plantation2::owner;stack;stack;stack
 ASG;plantation3::owner;stack;stack;stack
