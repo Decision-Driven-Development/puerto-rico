@@ -8,22 +8,30 @@ CMT;----------------------------------------------------------------------------
 ASG;player1::name;${function::table-player-1};${function::table-player-1}; ${function::table-player-1}
 ASG;player1::acted;false;false;false
 ASG;player1::coins;2;3;4
+ASG;player1::colonists;0;0;0
 ASG;player1::buildings;[plantation22];[plantation22];[plantation22]
 ASG;player2::name;${function::table-player-2};${function::table-player-2}; ${function::table-player-2}
 ASG;player2::acted;false;false;false
 ASG;player2::coins;2;3;4
+ASG;player2::colonists;0;0;0
+ASG;player1::buildings;[plantation22];[plantation22];[plantation22]
 ASG;player2::buildings;[plantation23];[plantation23];[plantation23]
 ASG;player3::name;${function::table-player-3};${function::table-player-3}; ${function::table-player-3}
 ASG;player3::acted;false;false;false
 ASG;player3::coins;2;3;4
+ASG;player2::colonists;0;0;0
+ASG;player1::buildings;[plantation22];[plantation22];[plantation22]
 ASG;player3::buildings;[plantation1];[plantation1];[plantation24]
 ASG;player4::name;;${function::table-player-4};${function::table-player-4}
 ASG;player4::acted;;false;false
 ASG;player4::coins;;3;4
+ASG;player4::colonists;;0;0
+ASG;player1::buildings;[plantation22];[plantation22];[plantation22]
 ASG;player4::buildings;;[plantation2];[plantation1]
 ASG;player5::name;;;${function::table-player-5}
 ASG;player5::acted;;;false
 ASG;player5::coins;;;4
+ASG;player5::colonists;;;0
 ASG;player5::buildings;;;[plantation2]
 CMT;--------------------------------------------------------------------------------
 CMT;phase initialization
@@ -207,14 +215,6 @@ ASG;plantation47::workplaces;1;1;1
 ASG;plantation48::workplaces;1;1;1
 ASG;plantation49::workplaces;1;1;1
 ASG;plantation50::workplaces;1;1;1
-ASG;quarry1::owner;board;board;board
-ASG;quarry2::owner;board;board;board
-ASG;quarry3::owner;board;board;board
-ASG;quarry4::owner;board;board;board
-ASG;quarry5::owner;board;board;board
-ASG;quarry6::owner;board;board;board
-ASG;quarry7::owner;board;board;board
-ASG;quarry8::owner;board;board;board
 ASG;board::plantation1;plantation${function::plantation-next};plantation${function::plantation-next};plantation${function::plantation-next}
 ASG;${board::plantation1}::owner;board;board;board
 ASG;board::plantation2;plantation${function::plantation-next};plantation${function::plantation-next};plantation${function::plantation-next}
@@ -227,3 +227,22 @@ ASG;board::plantation5;;plantation${function::plantation-next};plantation${funct
 ASG;${board::plantation5}::owner;     ;board;board
 ASG;board::plantation6;;;plantation${function::plantation-next}
 ASG;${board::plantation6}::owner;     ;     ;board
+CMT;--------------------------------------------------------------------------------
+CMT;quarries initialization
+CMT;--------------------------------------------------------------------------------
+ASG;quarry1::owner;board;board;board
+ASG;quarry1::workplaces;1;1;1
+ASG;quarry2::owner;board;board;board
+ASG;quarry2::workplaces;1;1;1
+ASG;quarry3::owner;board;board;board
+ASG;quarry3::workplaces;1;1;1
+ASG;quarry4::owner;board;board;board
+ASG;quarry4::workplaces;1;1;1
+ASG;quarry5::owner;board;board;board
+ASG;quarry5::workplaces;1;1;1
+ASG;quarry6::owner;board;board;board
+ASG;quarry6::workplaces;1;1;1
+ASG;quarry7::owner;board;board;board
+ASG;quarry7::workplaces;1;1;1
+ASG;quarry8::owner;board;board;board
+ASG;quarry8::workplaces;1;1;1

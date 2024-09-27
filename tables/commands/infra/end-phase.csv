@@ -3,6 +3,7 @@ CND ;table::playersNum  ;3                      ;4                      ;5      
 CND ;phase-status::done ;true                   ;true                   ;true                   ;true                         ;true                           ;true
 CND ;phase::count       ;<3                     ;<4                     ;<5                     ;3                            ;4                              ;5
 CND ;phase::role        ;!settler               ;!settler               ;!settler               ;!settler                     ;!settler                       ;!settler
+CND ;phase::role        ;!mayor                 ;!mayor                 ;!mayor                 ;!mayor                       ;!mayor                         ;!mayor
 OUT ;available          ;true                   ;true                   ;true                   ;true                         ;true                           ;true                           ;false
 ASG ;phase::role        ;undefined              ;undefined              ;undefined              ;undefined                    ;undefined                      ;undefined
 ASG ;phase::privilege   ;undefined              ;undefined              ;undefined              ;undefined                    ;undefined                      ;undefined
@@ -13,7 +14,7 @@ ASG ;turnOrder::2       ;${turnOrder::3}        ;${turnOrder::3}        ;${turnO
 ASG ;turnOrder::3       ;${turnOrder::temp}     ;${turnOrder::4}        ;${turnOrder::4}        ;${turnOrder::temp}           ;${turnOrder::4}                ;${turnOrder::4}
 ASG ;turnOrder::4       ;                       ;${turnOrder::temp}     ;${turnOrder::5}        ;                             ;${turnOrder::temp}             ;${turnOrder::5}
 ASG ;turnOrder::5       ;                       ;                       ;${turnOrder::temp}     ;                             ;                               ;${turnOrder::temp}
-ASG ;turnOrder::temp    ;undefined              ;undefined              ;undefined              ;${turnOrder::1}              ;${turnOrder::1}                ;${turnOrder::1}                ;
+ASG ;turnOrder::temp    ;undefined              ;undefined              ;undefined              ;${turnOrder::1}              ;${turnOrder::1}                ;${turnOrder::1}
 ASG ;turnOrder::1       ;                       ;                       ;                       ;${turnOrder::2}              ;${turnOrder::2}                ;${turnOrder::2}
 ASG ;turnOrder::2       ;                       ;                       ;                       ;${turnOrder::3}              ;${turnOrder::3}                ;${turnOrder::3}
 ASG ;turnOrder::3       ;                       ;                       ;                       ;${turnOrder::temp}           ;${turnOrder::4}                ;${turnOrder::4}

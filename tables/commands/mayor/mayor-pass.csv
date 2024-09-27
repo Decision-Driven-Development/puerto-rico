@@ -1,7 +1,0 @@
-HDR;конец хода мэра;нет свободных колонистов;нет свободных рабочих мест
-CND;name-to-id::id;player-order::current;player-order::current
-CND;phase::role;mayor;mayor
-CND;${name-to-id::id}::colonists;0;~
-CND;${function::mayor-has-empty-workplaces};~;false
-OUT;available;true;true;false
-ASG;${player-order::current}::acted;true

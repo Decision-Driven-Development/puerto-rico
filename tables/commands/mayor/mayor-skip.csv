@@ -1,0 +1,7 @@
+HDR;конец хода мэра;нет мест, но есть колонисты;нет колонистов, но есть места;нет мест и колонистов
+CND;name-to-id::id;player-order::current;player-order::current;player-order::current
+CND;phase::role;mayor;mayor;mayor
+CND;${name-to-id::id}::colonists;>0;0;0
+CND;${function::mayor-all-workplaces-occupied};true;false;true
+OUT;available;true;true;true;false
+ASG;${player-order::current}::acted;true;true;true
