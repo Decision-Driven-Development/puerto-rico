@@ -1,6 +1,5 @@
 HDR;Распределение колонистов;Общая доступность действия
 CND;name-to-id::id;player-order::current
 CND;phase::role;mayor
-CND;request::building;undefined
 OUT;available;true;false
 ASG;${player-order::current}::acted;true

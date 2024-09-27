@@ -9,7 +9,8 @@ if (buildings == 'undefined') {
             .split(', ')
             .toList()
 }
-def plantationNum = context.valueFor('request', 'plantation')
+def boardPlantationNum = context.valueFor('request', 'plantation')
+def plantation = context.valueFor('board', 'plantation' + boardPlantationNum)
 
-buildings << 'plantation' + plantationNum
+buildings << plantation
 buildings.toString()
