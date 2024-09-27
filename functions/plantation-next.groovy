@@ -21,4 +21,4 @@ if (dropPlantations.size() > 0) {
     return dropPlantations.shuffled().first()
 }
 
-return 'undefined'
+return 0

@@ -10,6 +10,7 @@ locators:
   - board
   - phase
   - temp
+  - plantation0
   - plantation1
   - plantation2
   - plantation3

@@ -82,6 +82,7 @@ ASG;plantation47::owner;stack;stack;stack
 ASG;plantation48::owner;stack;stack;stack
 ASG;plantation49::owner;stack;stack;stack
 ASG;plantation50::owner;stack;stack;stack
+ASG;plantation0::type;unavailable;unavailable;unavailable
 ASG;plantation1::type;corn;corn;corn
 ASG;plantation2::type;corn;corn;corn
 ASG;plantation3::type;corn;corn;corn

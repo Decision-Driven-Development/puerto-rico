@@ -48,3 +48,9 @@ ASG;plantation47::owner;player1
 ASG;plantation48::owner;player1
 ASG;plantation49::owner;player1
 ASG;plantation50::owner;player1
+ASG;board::plantation1;taken
+ASG;board::plantation2;taken
+ASG;board::plantation3;taken
+ASG;board::plantation4;taken
+ASG;board::plantation5;taken
+ASG;board::plantation6;taken

@@ -5,6 +5,7 @@ ASG ;player1::acted               ;true
 ASG ;player2::acted               ;true
 ASG ;player3::acted               ;true
 ASG ;plantation1::owner           ;board
+ASG ;board::plantation2           ;plantation1
 CND ;end-phase-settler::available ;true
 EXE ;command                      ;end-phase-settler
 CND ;plantation1::owner           ;board
