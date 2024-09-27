@@ -8,18 +8,23 @@ CMT;----------------------------------------------------------------------------
 ASG;player1::name;${function::table-player-1};${function::table-player-1}; ${function::table-player-1}
 ASG;player1::acted;false;false;false
 ASG;player1::coins;2;3;4
+ASG;player1::buildings;[plantation22];[plantation22];[plantation22]
 ASG;player2::name;${function::table-player-2};${function::table-player-2}; ${function::table-player-2}
 ASG;player2::acted;false;false;false
 ASG;player2::coins;2;3;4
+ASG;player2::buildings;[plantation23];[plantation23];[plantation23]
 ASG;player3::name;${function::table-player-3};${function::table-player-3}; ${function::table-player-3}
 ASG;player3::acted;false;false;false
 ASG;player3::coins;2;3;4
+ASG;player3::buildings;[plantation1];[plantation1];[plantation24]
 ASG;player4::name;;${function::table-player-4};${function::table-player-4}
 ASG;player4::acted;;false;false
 ASG;player4::coins;;3;4
+ASG;player4::buildings;;[plantation2];[plantation1]
 ASG;player5::name;;;${function::table-player-5}
 ASG;player5::acted;;;false
 ASG;player5::coins;;;4
+ASG;player5::buildings;;;[plantation2]
 CMT;--------------------------------------------------------------------------------
 CMT;phase initialization
 CMT;--------------------------------------------------------------------------------
@@ -98,7 +103,9 @@ ASG;plantation49::owner;stack;stack;stack
 ASG;plantation50::owner;stack;stack;stack
 ASG;plantation0::type;unavailable;unavailable;unavailable
 ASG;plantation1::type;corn;corn;corn
+ASG;plantation1::owner;player3;player3;player4
 ASG;plantation2::type;corn;corn;corn
+ASG;plantation2::owner;;player4;player5
 ASG;plantation3::type;corn;corn;corn
 ASG;plantation4::type;corn;corn;corn
 ASG;plantation5::type;corn;corn;corn
@@ -119,8 +126,11 @@ ASG;plantation19::type;sugar;sugar;sugar
 ASG;plantation20::type;sugar;sugar;sugar
 ASG;plantation21::type;sugar;sugar;sugar
 ASG;plantation22::type;indigo;indigo;indigo
+ASG;plantation22::owner;player1;player1;player1
 ASG;plantation23::type;indigo;indigo;indigo
+ASG;plantation23::owner;player2;player2;player2
 ASG;plantation24::type;indigo;indigo;indigo
+ASG;plantation24::owner;;;player3
 ASG;plantation25::type;indigo;indigo;indigo
 ASG;plantation26::type;indigo;indigo;indigo
 ASG;plantation27::type;indigo;indigo;indigo

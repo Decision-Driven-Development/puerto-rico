@@ -6,6 +6,7 @@ CND;phase::privilege;undefined
 CND;function::quarry-available;!false
 CND;function::island-free-space;>0
 OUT;available;true;false
+ASG;${player-order::current}::buildings;${function::add-quarry-to-player}
 ASG;${function::quarry-available}::owner;${name-to-id::id};
 ASG;${player-order::current}::acted;true
 ASG;phase::privilege;taken
