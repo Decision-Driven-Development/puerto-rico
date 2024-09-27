@@ -32,7 +32,6 @@ ASG;board::settler;0;0;0
 ASG;board::trader;0;0;0
 ASG;board::prospector1;undefined;0;0
 ASG;board::prospector2;undefined;undefined;0
-ASG;temp::plantations;${function::plantations-shuffle};${function::plantations-shuffle};${function::plantations-shuffle}
 ASG;plantation1::owner;stack;stack;stack
 ASG;plantation2::owner;stack;stack;stack
 ASG;plantation3::owner;stack;stack;stack
@@ -141,9 +140,15 @@ ASG;quarry5::owner;board;board;board
 ASG;quarry6::owner;board;board;board
 ASG;quarry7::owner;board;board;board
 ASG;quarry8::owner;board;board;board
-ASG;plantation${function::plantation-next}::owner;board;board;board
-ASG;plantation${function::plantation-next}::owner;board;board;board
-ASG;plantation${function::plantation-next}::owner;board;board;board
-ASG;plantation${function::plantation-next}::owner;board;board;board
-ASG;plantation${function::plantation-next}::owner;     ;board;board
-ASG;plantation${function::plantation-next}::owner;     ;     ;board
+ASG;board::plantation1;plantation${function::plantation-next};plantation${function::plantation-next};plantation${function::plantation-next}
+ASG;${board::plantation1}::owner;board;board;board
+ASG;board::plantation2;plantation${function::plantation-next};plantation${function::plantation-next};plantation${function::plantation-next}
+ASG;${board::plantation2}::owner;board;board;board
+ASG;board::plantation3;plantation${function::plantation-next};plantation${function::plantation-next};plantation${function::plantation-next}
+ASG;${board::plantation3}::owner;board;board;board
+ASG;board::plantation4;plantation${function::plantation-next};plantation${function::plantation-next};plantation${function::plantation-next}
+ASG;${board::plantation4}::owner;board;board;board
+ASG;board::plantation5;;plantation${function::plantation-next};plantation${function::plantation-next}
+ASG;${board::plantation5}::owner;     ;board;board
+ASG;board::plantation6;;;plantation${function::plantation-next}
+ASG;${board::plantation6}::owner;     ;     ;board

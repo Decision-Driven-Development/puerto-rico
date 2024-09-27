@@ -2,6 +2,7 @@ HDR;end phase;3pl phase;4 pl phase;5pl phase;3pl round;4pl round;5pl round
 CND;table::playersNum;3;4;5;3;4;5
 CND;phase-status::done;true;true;true;true;true;true
 CND;phase::count;<3;<4;<5;3;4;5
+CND;phase::role;!settler;!settler;!settler;!settler;!settler;!settler
 OUT;available;true;true;true;true;true;true;false
 ASG;phase::role;undefined;undefined;undefined;undefined;undefined;undefined
 ASG;phase::count;${function::inc-phase};${function::inc-phase};${function::inc-phase};1;1;1
