@@ -19,10 +19,6 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 <nav class="post_navigation">
   {% if page.previous.url %}
@@ -32,4 +28,10 @@ layout: default
     <a href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
   {% endif %}
 </nav>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+
 </article>
