@@ -2,6 +2,9 @@ theme: minima
 title: "Пуэрто Рико на таблицах"
 description: "Моделирование логики настольной игры 'Пуэрто Рико' с помощью таблиц принятия решений"
 author: "Евгений Терехов"
+domain: decision-driven-development.github.io
+url: https://decision-driven-development.github.io
+baseurl: /puerto-rico/
 github_username: nergal-perm
 linkedin_username: eterehov-java-lead
 youtube_username: "@EugeneWritesCode"
