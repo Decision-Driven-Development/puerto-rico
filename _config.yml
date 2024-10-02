@@ -9,3 +9,5 @@ rss: rss
 permalink: "/log/:year:month:day-:title"
 minima:
   date_format: "%Y-%m-%d"
+disqus:
+  shortname: puerto-rico-1
