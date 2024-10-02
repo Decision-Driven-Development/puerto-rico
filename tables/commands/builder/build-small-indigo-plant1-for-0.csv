@@ -1,0 +1,12 @@
+HDR ;Постройка малой фабрики индиго 1 ;Привилегия                          ;1 каменоломня
+CND ;name-to-id::id                   ;player-order::current               ;player-order::current
+CND ;name-to-id::id                   ;turnOrder::1                        ;!turnOrder::1
+CND ;phase::role                      ;builder                             ;builder
+CND ;smallIndigoPlant1::owner         ;market                              ;market
+CND ;function::active-quarries        ;~                                   ;>0
+OUT ;available                        ;true                                ;true                                ;false
+ASG ;smallIndigoPlant1::owner         ;name-to-id::id                      ;name-to-id::id
+ASG ;${name-to-id::id}::acted         ;true                                ;true
+ASG ;temp::building                   ;smallIndigoPlant1                   ;smallIndigoPlant1
+ASG ;${name-to-id::id}::buildings     ;function::add-building-to-player    ;function::add-building-to-player
+ASG ;temp::building                   ;undefined                           ;undefined

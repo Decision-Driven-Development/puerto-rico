@@ -246,3 +246,9 @@ ASG;quarry7::owner;board;board;board
 ASG;quarry7::workplaces;1;1;1
 ASG;quarry8::owner;board;board;board
 ASG;quarry8::workplaces;1;1;1
+CMT;--------------------------------------------------------------------------------
+CMT;buildings initialization
+CMT;--------------------------------------------------------------------------------
+ASG;smallIndigoPlant1::owner;market;market;market
+ASG;smallIndigoPlant1::workplaces;1;1;1
+ASG;smallIndigoPlant1::vp;1;1;1
