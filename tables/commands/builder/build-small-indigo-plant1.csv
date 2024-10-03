@@ -1,14 +1,16 @@
-HDR ;Постройка малой фабрики индиго 1 ;Привилегия                          ;1 каменоломня                       ;Нет каменоломен
-CND ;name-to-id::id                   ;player-order::current               ;player-order::current               ;player-order::current
-CND ;name-to-id::id                   ;turnOrder::1                        ;!turnOrder::1                       ;!turnOrder::1
-CND ;phase::role                      ;builder                             ;builder                             ;builder
-CND ;smallIndigoPlant1::owner         ;market                              ;market                              ;market
-CND ;function::active-quarries        ;~                                   ;>0                                  ;0
-CND ;${name-to-id::id}::coins         ;~                                   ;~                                   ;>0
-OUT ;available                        ;true                                ;true                                ;true                   ;false
-ASG ;smallIndigoPlant1::owner         ;name-to-id::id                      ;name-to-id::id                      ;name-to-id::id
-ASG ;${name-to-id::id}::acted         ;true                                ;true                                ;true
-ASG ;${name-to-id::id}::coins         ;                                    ;                                    ;function::builder-pay-1-coin
-ASG ;temp::building                   ;smallIndigoPlant1                   ;smallIndigoPlant1                   ;smallIndigoPlant1
-ASG ;${name-to-id::id}::buildings     ;function::add-building-to-player    ;function::add-building-to-player    ;function::add-building-to-player
-ASG ;temp::building                   ;undefined                           ;undefined                           ;undefined
+HDR ;Постройка малой фабрики индиго 1 ;Привилегия                       ;1 каменоломня                    ;Нет каменоломен
+CND ;name-to-id::id                   ;player-order::current            ;player-order::current            ;player-order::current
+CND ;name-to-id::id                   ;turnOrder::1                     ;!turnOrder::1                    ;!turnOrder::1
+CND ;phase::role                      ;builder                          ;builder                          ;builder
+CND ;smallIndigoPlant1::owner         ;market                           ;market                           ;market
+CND ;function::active-quarries        ;~                                ;>0                               ;0
+CND ;${name-to-id::id}::coins         ;~                                ;~                                ;>0
+OUT ;available                        ;true                             ;true                             ;true                             ;false
+ASG ;smallIndigoPlant1::owner         ;name-to-id::id                   ;name-to-id::id                   ;name-to-id::id
+ASG ;${name-to-id::id}::acted         ;true                             ;true                             ;true
+ASG ;temp::price                      ;                                 ;                                 ;1
+ASG ;${name-to-id::id}::coins         ;                                 ;                                 ;coins::new-balance 
+ASG ;temp::price                      ;                                 ;                                 ;undefined
+ASG ;temp::building                   ;smallIndigoPlant1                ;smallIndigoPlant1                ;smallIndigoPlant1
+ASG ;${name-to-id::id}::buildings     ;function::add-building-to-player ;function::add-building-to-player ;function::add-building-to-player
+ASG ;temp::building                   ;undefined                        ;undefined                        ;undefined

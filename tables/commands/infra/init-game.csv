@@ -252,3 +252,6 @@ CMT;----------------------------------------------------------------------------
 ASG;smallIndigoPlant1::owner;market;market;market
 ASG;smallIndigoPlant1::workplaces;1;1;1
 ASG;smallIndigoPlant1::vp;1;1;1
+ASG;cityHall::owner;market;market;market
+ASG;cityHall::workplaces;1;1;1
+ASG;cityHall::vp;4;4;4

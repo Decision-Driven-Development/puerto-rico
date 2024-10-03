@@ -1,0 +1,10 @@
+ASG;quarry1::owner;player1
+ASG;quarry1::workers;1
+ASG;quarry2::owner;player1
+ASG;quarry2::workers;1
+ASG;quarry3::owner;player1
+ASG;quarry3::workers;1
+ASG;quarry4::owner;player1
+ASG;quarry4::workers;1
+ASG;quarry5::owner;player1
+ASG;quarry5::workers;0

@@ -1,0 +1,15 @@
+HDR ;Строитель - Мэрия          ;Привилегия + 4 каменоломни ;Привилегия + 3 каменоломни
+EXE ;include                    ;02-init-game               ;02-init-game
+ASG ;request::player            ;Alice                      ;Alice
+EXE ;command                    ;choose-builder             ;choose-builder
+ASG ;request::player            ;Alice                      ;Alice
+EXE ;command                    ;                           ;
+ASG ;request::player            ;                           ;
+EXE ;include                    ;4-quarries-to-Alice        ;3-quarries-to-Alice
+ASG ;player1::coins             ;5                          ;10                         ;
+CND ;build-city-hall::available ;true                       ;true
+EXE ;command                    ;build-city-hall            ;build-city-hall
+CND ;player1::coins             ;0                          ;4
+CND ;player2::coins             ;2                          ;2
+CND ;player1::buildings         ;[plantation22, cityHall]   ;[plantation22, cityHall]
+CND ;player2::buildings         ;[plantation23]             ;[plantation23]

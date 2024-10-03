@@ -1,0 +1,16 @@
+HDR ;Постройка ратуши             ;Привилегия + 4 каменоломни       ;Привилегия + 3 каменоломни
+CND ;name-to-id::id               ;player-order::current            ;player-order::current
+CND ;name-to-id::id               ;turnOrder::1                     ;turnOrder::1
+CND ;phase::role                  ;builder                          ;builder
+CND ;cityHall::owner              ;market                           ;market
+CND ;function::active-quarries    ;!<4                              ;!<3
+CND ;${name-to-id::id}::coins     ;!<5                              ;!<6
+OUT ;available                    ;true                             ;true
+ASG ;cityHall::owner              ;name-to-id::id                   ;name-to-id::id
+ASG ;${name-to-id::id}::acted     ;true                             ;true
+ASG ;temp::price                  ;5                                ;6
+ASG ;${name-to-id::id}::coins     ;coins::new-balance               ;coins::new-balance
+ASG ;temp::price                  ;undefined                        ;undefined
+ASG ;temp::building               ;cityHall                         ;cityHall
+ASG ;${name-to-id::id}::buildings ;function::add-building-to-player ;function::add-building-to-player
+ASG ;temp::building               ;undefined                        ;undefined
