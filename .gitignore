@@ -39,3 +39,4 @@ Thumbs.db
 # Jekyll and ruby stuff #
 # #######################
 _site/
+.sass_cache/
