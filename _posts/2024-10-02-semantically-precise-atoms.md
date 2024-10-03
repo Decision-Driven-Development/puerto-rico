@@ -2,7 +2,6 @@
 title: "Таблицы с высокой семантической точностью"
 date: 2024-10-02 10:08:07 +0300
 layout: post
-category: decisions
 tags: решение
 comments: true
 ---

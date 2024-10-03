@@ -2,7 +2,6 @@
 title: Таблица для расчета баланса игрока после постройки
 date: 2024-10-03 16:25:00 +0400
 layout: post
-category: decisions
 comments: true
 ---
 
