@@ -48,15 +48,12 @@ jobs:
         id: pages
         uses: actions/configure-pages@v1
 
-      - name: move into the directory
-        run: cd docs
-
       - name: Checking Jekyll configuration
         run: bundle exec jekyll doctor
 
       - name: Build with Jekyll
         # Defaults output to '/_site'
-        run: bundle exec jekyll build --baseurl ${{ steps.pages.outputs.base_path }} --profile --trace
+        run: bundle exec jekyll build --baseurl ${{ steps.pages.outputs.base_path }} --profile --trace --source docs
         env:
           JEKYLL_ENV: production
 
