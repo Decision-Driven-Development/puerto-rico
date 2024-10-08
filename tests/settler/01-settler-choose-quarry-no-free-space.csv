@@ -1,18 +1,18 @@
-HDR;Поселенец (взятие каменоломни);нет свободных мест
-EXE;include;00-settler-choose-availability
-ASG;request::player;Alice
-EXE;command;choose-settler
-ASG;request::player;Alice
-ASG;plantation1::owner;player1
-ASG;plantation2::owner;player1
-ASG;plantation3::owner;player1
-ASG;plantation4::owner;player1
-ASG;plantation5::owner;player1
-ASG;plantation6::owner;player1
-ASG;plantation7::owner;player1
-ASG;plantation8::owner;player1
-ASG;plantation9::owner;player1
-ASG;plantation10::owner;player1
-ASG;plantation11::owner;player1
-ASG;plantation12::owner;player1
-CND;settler-take-quarry::available;false
+HDR,Поселенец (взятие каменоломни),нет свободных мест
+EXE,include,00-settler-choose-availability
+ASG,request::player,Alice
+EXE,command,choose-settler
+ASG,request::player,Alice
+ASG,plantation1::owner,player1
+ASG,plantation2::owner,player1
+ASG,plantation3::owner,player1
+ASG,plantation4::owner,player1
+ASG,plantation5::owner,player1
+ASG,plantation6::owner,player1
+ASG,plantation7::owner,player1
+ASG,plantation8::owner,player1
+ASG,plantation9::owner,player1
+ASG,plantation10::owner,player1
+ASG,plantation11::owner,player1
+ASG,plantation12::owner,player1
+CND,settler-take-quarry::available,false

@@ -1,16 +1,16 @@
-HDR;helper;create 5 players table
-ASG ;request::player          ;Alice
-EXE ;command                  ;create-table
-ASG ;request::player          ;Bob
-EXE ;command                  ;join-table
-ASG ;request::player          ;Charlie
-EXE ;command                  ;join-table
-ASG ;request::player          ;David
-EXE ;command                  ;join-table
-ASG ;request::player          ;Eve
-EXE ;command                  ;join-table
-ASG ;function::table-player-1 ;Alice
-ASG ;function::table-player-2 ;Bob
-ASG ;function::table-player-3 ;Charlie
-ASG ;function::table-player-4 ;David
-ASG ;function::table-player-5 ;Eve
+HDR,helper,create 5 players table
+ASG ,request::player          ,Alice
+EXE ,command                  ,create-table
+ASG ,request::player          ,Bob
+EXE ,command                  ,join-table
+ASG ,request::player          ,Charlie
+EXE ,command                  ,join-table
+ASG ,request::player          ,David
+EXE ,command                  ,join-table
+ASG ,request::player          ,Eve
+EXE ,command                  ,join-table
+ASG ,function::table-player-1 ,Alice
+ASG ,function::table-player-2 ,Bob
+ASG ,function::table-player-3 ,Charlie
+ASG ,function::table-player-4 ,David
+ASG ,function::table-player-5 ,Eve

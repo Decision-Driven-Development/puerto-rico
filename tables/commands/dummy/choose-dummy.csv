@@ -1,5 +1,5 @@
-CND;current-player::role-chooser;true
-CND;phase::role;undefined
-OUT;available;true;false
-ASG;${turnOrder::1}::role;dummy
-ASG;phase::role;dummy
+CND,current-player::role-chooser,true
+CND,phase::role,undefined
+OUT,available,true,false
+ASG,${turnOrder::1}::role,dummy
+ASG,phase::role,dummy

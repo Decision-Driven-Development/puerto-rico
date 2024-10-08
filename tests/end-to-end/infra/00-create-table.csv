@@ -1,14 +1,14 @@
-HDR;00 - Создание стола;успех;неудача (стол уже создан)
-ASG;request::player;Alice;Bob
-ASG;table::player1;;Alice
-CND;create-table::available;true;false
-EXE;command;create-table;
-CND;table::playersNum;1;
-CND;table::player1;Alice;
-CND;table::player2;undefined;
-CND;table::player3;undefined;
-CND;table::player4;undefined;
-CND;table::player5;undefined;
-CND;table::minPlayers;3;
-CND;table::maxPlayers;5;
-CND;create-table::available;false;
+HDR,00 - Создание стола,успех,неудача (стол уже создан)
+ASG,request::player,Alice,Bob
+ASG,table::player1,,Alice
+CND,create-table::available,true,false
+EXE,command,create-table,
+CND,table::playersNum,1,
+CND,table::player1,Alice,
+CND,table::player2,undefined,
+CND,table::player3,undefined,
+CND,table::player4,undefined,
+CND,table::player5,undefined,
+CND,table::minPlayers,3,
+CND,table::maxPlayers,5,
+CND,create-table::available,false,

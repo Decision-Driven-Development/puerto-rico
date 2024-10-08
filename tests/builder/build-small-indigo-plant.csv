@@ -1,16 +1,16 @@
-HDR ;Строитель - малая фабрика индиго           ;Привилегия                        ;1 каменоломня                     ;5 каменоломен                     ;Полная стоимость
-EXE ;include                                    ;02-init-game                      ;02-init-game                      ;02-init-game                      ;02-init-game
-ASG ;request::player                            ;Alice                             ;Alice                             ;Alice                             ;Alice
-EXE ;command                                    ;choose-builder                    ;choose-builder                    ;choose-builder                    ;choose-builder
-ASG ;request::player                            ;Alice                             ;Alice                             ;Alice                             ;Alice
-EXE ;command                                    ;                                  ;builder-perform                   ;builder-perform                   ;builder-perform
-ASG ;request::player                            ;                                  ;Bob                               ;Bob                               ;Bob
-EXE ;include                                    ;                                  ;1-quarry-to-Bob                   ;5-quarries-to-Bob                 ;
-CND ;build-small-indigo-plant1::available       ;true                              ;true                              ;true                              ;true
-CND ;player1::coins                             ;2                                 ;2                                 ;2                                 ;2
-CND ;player2::coins                             ;2                                 ;2                                 ;2                                 ;2
-EXE ;command                                    ;build-small-indigo-plant1         ;build-small-indigo-plant1         ;build-small-indigo-plant1         ;build-small-indigo-plant1
-CND ;player1::coins                             ;2                                 ;2                                 ;2                                 ;2
-CND ;player2::coins                             ;2                                 ;2                                 ;2                                 ;1
-CND ;player1::buildings                         ;[plantation22, smallIndigoPlant1] ;[plantation22]                    ;[plantation22]                    ;[plantation22]
-CND ;player2::buildings                         ;[plantation23]                    ;[plantation23, smallIndigoPlant1] ;[plantation23, smallIndigoPlant1] ;[plantation23, smallIndigoPlant1]
+HDR ,Строитель - малая фабрика индиго           ,Привилегия                        ,1 каменоломня                     ,5 каменоломен                     ,Полная стоимость
+EXE ,include                                    ,02-init-game                      ,02-init-game                      ,02-init-game                      ,02-init-game
+ASG ,request::player                            ,Alice                             ,Alice                             ,Alice                             ,Alice
+EXE ,command                                    ,choose-builder                    ,choose-builder                    ,choose-builder                    ,choose-builder
+ASG ,request::player                            ,Alice                             ,Alice                             ,Alice                             ,Alice
+EXE ,command                                    ,                                  ,builder-perform                   ,builder-perform                   ,builder-perform
+ASG ,request::player                            ,                                  ,Bob                               ,Bob                               ,Bob
+EXE ,include                                    ,                                  ,1-quarry-to-Bob                   ,5-quarries-to-Bob                 ,
+CND ,build-small-indigo-plant1::available       ,true                              ,true                              ,true                              ,true
+CND ,player1::coins                             ,2                                 ,2                                 ,2                                 ,2
+CND ,player2::coins                             ,2                                 ,2                                 ,2                                 ,2
+EXE ,command                                    ,build-small-indigo-plant1         ,build-small-indigo-plant1         ,build-small-indigo-plant1         ,build-small-indigo-plant1
+CND ,player1::coins                             ,2                                 ,2                                 ,2                                 ,2
+CND ,player2::coins                             ,2                                 ,2                                 ,2                                 ,1
+CND ,player1::buildings                         ,[plantation22 smallIndigoPlant1] ,[plantation22]                    ,[plantation22]                    ,[plantation22]
+CND ,player2::buildings                         ,[plantation23]                    ,[plantation23 smallIndigoPlant1] ,[plantation23 smallIndigoPlant1] ,[plantation23 smallIndigoPlant1]

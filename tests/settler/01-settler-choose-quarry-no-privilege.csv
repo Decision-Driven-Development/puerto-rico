@@ -1,8 +1,8 @@
-HDR;Поселенец (взятие каменоломни);нет привилегии
-EXE;include;00-settler-choose-availability
-ASG;request::player;Alice
-EXE;command;choose-settler
-ASG;request::player;Alice
-EXE;command;settler-skip
-ASG;request::player;Bob
-CND;settler-take-quarry::available;false
+HDR,Поселенец (взятие каменоломни),нет привилегии
+EXE,include,00-settler-choose-availability
+ASG,request::player,Alice
+EXE,command,choose-settler
+ASG,request::player,Alice
+EXE,command,settler-skip
+ASG,request::player,Bob
+CND,settler-take-quarry::available,false

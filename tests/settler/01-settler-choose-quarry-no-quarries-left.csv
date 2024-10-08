@@ -1,14 +1,14 @@
-HDR;Поселенец (взятие каменоломни);нет каменоломен
-EXE;include;00-settler-choose-availability
-ASG;request::player;Alice
-EXE;command;choose-settler
-ASG;request::player;Alice
-ASG;quarry1::owner;Bob
-ASG;quarry2::owner;Bob
-ASG;quarry3::owner;Bob
-ASG;quarry4::owner;Bob
-ASG;quarry5::owner;Bob
-ASG;quarry6::owner;Bob
-ASG;quarry7::owner;Bob
-ASG;quarry8::owner;Bob
-CND;settler-take-quarry::available;false
+HDR,Поселенец (взятие каменоломни),нет каменоломен
+EXE,include,00-settler-choose-availability
+ASG,request::player,Alice
+EXE,command,choose-settler
+ASG,request::player,Alice
+ASG,quarry1::owner,Bob
+ASG,quarry2::owner,Bob
+ASG,quarry3::owner,Bob
+ASG,quarry4::owner,Bob
+ASG,quarry5::owner,Bob
+ASG,quarry6::owner,Bob
+ASG,quarry7::owner,Bob
+ASG,quarry8::owner,Bob
+CND,settler-take-quarry::available,false

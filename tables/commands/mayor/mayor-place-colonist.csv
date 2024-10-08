@@ -1,8 +1,8 @@
-CND;name-to-id::id;player-order::current
-CND;phase::role;mayor
-CND;${request::building}::owner;name-to-id::id
-CND;${function::mayor-building-vacant};true
-CND;${name-to-id::id}::colonists;>0
-OUT;available;true;false
-ASG;${request::building}::workers;${function::mayor-add-worker}
-ASG;${name-to-id::id}::colonists;${function::mayor-decrease-colonists}
+CND,name-to-id::id,player-order::current
+CND,phase::role,mayor
+CND,${request::building}::owner,name-to-id::id
+CND,${function::mayor-building-vacant},true
+CND,${name-to-id::id}::colonists,>0
+OUT,available,true,false
+ASG,${request::building}::workers,${function::mayor-add-worker}
+ASG,${name-to-id::id}::colonists,${function::mayor-decrease-colonists}

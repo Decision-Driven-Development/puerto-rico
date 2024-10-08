@@ -1,6 +1,6 @@
-HDR;Мэр (выбор роли);успех;роль занята;не тот игрок
-EXE;include;create-4-players-table;create-4-players-table;create-4-players-table
-EXE;command;init-game;init-game;init-game
-ASG;request::player;Alice;Alice;Bob
-ASG;board::mayor;0;taken;0
-CND;choose-mayor::available;true;false;false
+HDR,Мэр (выбор роли),успех,роль занята,не тот игрок
+EXE,include,create-4-players-table,create-4-players-table,create-4-players-table
+EXE,command,init-game,init-game,init-game
+ASG,request::player,Alice,Alice,Bob
+ASG,board::mayor,0,taken,0
+CND,choose-mayor::available,true,false,false

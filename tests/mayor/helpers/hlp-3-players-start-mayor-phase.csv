@@ -1,4 +1,4 @@
-EXE;include;create-3-players-table
-EXE;command;init-game
-ASG;request::player;Alice
-EXE;command;choose-mayor
+EXE,include,create-3-players-table
+EXE,command,init-game
+ASG,request::player,Alice
+EXE,command,choose-mayor

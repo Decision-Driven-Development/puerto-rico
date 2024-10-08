@@ -1,8 +1,8 @@
-HDR;Поселенец (взятие плантации);уже действовал
-EXE;include;00-settler-choose-availability
-ASG;request::player;Alice
-EXE;command;choose-settler
-ASG;request::player;Alice
-EXE;command;settler-skip
-ASG;request::player;Alice
-CND;settler-take-plantation::available;false
+HDR,Поселенец (взятие плантации),уже действовал
+EXE,include,00-settler-choose-availability
+ASG,request::player,Alice
+EXE,command,choose-settler
+ASG,request::player,Alice
+EXE,command,settler-skip
+ASG,request::player,Alice
+CND,settler-take-plantation::available,false

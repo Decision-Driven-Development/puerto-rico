@@ -1,6 +1,6 @@
-HDR;Постройка;Общая доступность действия
-CND;name-to-id::id;player-order::current
-CND;phase::role;builder
-CND;request::building;undefined
-OUT;available;true;false
-ASG;${player-order::current}::acted;true
+HDR,Постройка,Общая доступность действия
+CND,name-to-id::id,player-order::current
+CND,phase::role,builder
+CND,request::building,undefined
+OUT,available,true,false
+ASG,${player-order::current}::acted,true

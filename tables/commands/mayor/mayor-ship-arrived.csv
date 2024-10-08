@@ -1,13 +1,13 @@
-HDR;Получение колонистов;3 игрока;4 игрока;5 игроков
-CND;table::playersNum;3;4;5
-CND;phase::role;mayor;mayor;mayor
-CND;phase::privilege;undefined;undefined;undefined
-OUT;available;true;true;true;false
-ASG;phase::privilege;taken;taken;taken
-ASG;${turnOrder::1}::colonists;${function::colonists-mayor};${function::colonists-mayor};${function::colonists-mayor}
-ASG;${turnOrder::2}::colonists;${function::colonists-second};${function::colonists-second};${function::colonists-second}
-ASG;${turnOrder::3}::colonists;${function::colonists-third};${function::colonists-third};${function::colonists-third}
-ASG;${turnOrder::4}::colonists;;${function::colonists-fourth};${function::colonists-fourth}
-ASG;${turnOrder::5}::colonists;;;${function::colonists-fifth}
-ASG;board::colonistReserve;${function::colonists-decrease-reserve};${function::colonists-decrease-reserve};${function::colonists-decrease-reserve}
-ASG;board::colonistShip;0;0;0
+HDR,Получение колонистов,3 игрока,4 игрока,5 игроков
+CND,table::playersNum,3,4,5
+CND,phase::role,mayor,mayor,mayor
+CND,phase::privilege,undefined,undefined,undefined
+OUT,available,true,true,true,false
+ASG,phase::privilege,taken,taken,taken
+ASG,${turnOrder::1}::colonists,${function::colonists-mayor},${function::colonists-mayor},${function::colonists-mayor}
+ASG,${turnOrder::2}::colonists,${function::colonists-second},${function::colonists-second},${function::colonists-second}
+ASG,${turnOrder::3}::colonists,${function::colonists-third},${function::colonists-third},${function::colonists-third}
+ASG,${turnOrder::4}::colonists,,${function::colonists-fourth},${function::colonists-fourth}
+ASG,${turnOrder::5}::colonists,,,${function::colonists-fifth}
+ASG,board::colonistReserve,${function::colonists-decrease-reserve},${function::colonists-decrease-reserve},${function::colonists-decrease-reserve}
+ASG,board::colonistShip,0,0,0

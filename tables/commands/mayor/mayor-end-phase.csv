@@ -1,7 +1,7 @@
-CND ;table::playersNum            ;3                                      ;4                                      ;5
-CND ;phase-status::done           ;true                                   ;true                                   ;true
-CND ;phase::role                  ;mayor                                  ;mayor                                  ;mayor
-OUT ;available                    ;true                                   ;true                                   ;true                                   ;false
-ASG ;phase::role                  ;undefined                              ;undefined                              ;undefined
-ASG ;board::colonistShip          ;${function::mayor-vacant-workplaces}   ;${function::mayor-vacant-workplaces}   ;${function::mayor-vacant-workplaces}
-ASG ;board::colonistReserve       ;${function::mayor-reduced-reserve}     ;${function::mayor-reduced-reserve}     ;${function::mayor-reduced-reserve}
+CND ,table::playersNum            ,3                                      ,4                                      ,5
+CND ,phase-status::done           ,true                                   ,true                                   ,true
+CND ,phase::role                  ,mayor                                  ,mayor                                  ,mayor
+OUT ,available                    ,true                                   ,true                                   ,true                                   ,false
+ASG ,phase::role                  ,undefined                              ,undefined                              ,undefined
+ASG ,board::colonistShip          ,${function::mayor-vacant-workplaces}   ,${function::mayor-vacant-workplaces}   ,${function::mayor-vacant-workplaces}
+ASG ,board::colonistReserve       ,${function::mayor-reduced-reserve}     ,${function::mayor-reduced-reserve}     ,${function::mayor-reduced-reserve}

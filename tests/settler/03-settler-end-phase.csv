@@ -1,11 +1,11 @@
-HDR ;Поселенец (завершение фазы)  ;последние плантации на столе
-EXE ;include                      ;01-settler-choose-quarry-role-chooser
-EXE ;include                      ;all-plantations-bought
-ASG ;player1::acted               ;true
-ASG ;player2::acted               ;true
-ASG ;player3::acted               ;true
-ASG ;plantation1::owner           ;board
-ASG ;board::plantation2           ;plantation1
-CND ;end-phase-settler::available ;true
-EXE ;command                      ;end-phase-settler
-CND ;plantation1::owner           ;board
+HDR ,Поселенец (завершение фазы)  ,последние плантации на столе
+EXE ,include                      ,01-settler-choose-quarry-role-chooser
+EXE ,include                      ,all-plantations-bought
+ASG ,player1::acted               ,true
+ASG ,player2::acted               ,true
+ASG ,player3::acted               ,true
+ASG ,plantation1::owner           ,board
+ASG ,board::plantation2           ,plantation1
+CND ,end-phase-settler::available ,true
+EXE ,command                      ,end-phase-settler
+CND ,plantation1::owner           ,board

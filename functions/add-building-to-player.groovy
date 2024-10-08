@@ -6,7 +6,7 @@ if (buildings == 'undefined') {
 } else {
     buildings = buildings
             .replaceAll("\\[|\\]", '')
-            .split(', ')
+            .split(' ')
             .toList()
 }
 def building = context.valueFor('temp', 'building')
@@ -14,4 +14,4 @@ def building = context.valueFor('temp', 'building')
 if (building != 'undefined') {
     buildings << building
 }
-buildings.toString()
+buildings.toString().replace(",", "")

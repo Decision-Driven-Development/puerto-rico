@@ -1,13 +1,13 @@
-HDR;Поселенец (взятие плантации);игрок, выбравший роль
-ASG;function::plantation-next;1
-EXE;include;00-settler-choose-availability
-ASG;request::player;Alice
-EXE;command;choose-settler
-ASG;request::player;Alice
-ASG;request::plantation;1
-CND;settler-take-plantation::available;true
-EXE;command;settler-take-plantation
-ASG;request::player;Alice
-CND;settler-take-plantation::available;false
-CND;plantation1::owner;player1
-CND;player1::acted;true
+HDR,Поселенец (взятие плантации),игрок, выбравший роль
+ASG,function::plantation-next,1
+EXE,include,00-settler-choose-availability
+ASG,request::player,Alice
+EXE,command,choose-settler
+ASG,request::player,Alice
+ASG,request::plantation,1
+CND,settler-take-plantation::available,true
+EXE,command,settler-take-plantation
+ASG,request::player,Alice
+CND,settler-take-plantation::available,false
+CND,plantation1::owner,player1
+CND,player1::acted,true

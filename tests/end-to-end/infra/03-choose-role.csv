@@ -1,14 +1,14 @@
-HDR;03 - первый выбор роли;успех - первый игрок раунда;неудача - второй игрок раунда
-EXE;include;create-3-players-table;create-3-players-table
-EXE;command;init-game;init-game
+HDR,03 - первый выбор роли,успех - первый игрок раунда,неудача - второй игрок раунда
+EXE,include,create-3-players-table,create-3-players-table
+EXE,command,init-game,init-game
 
-ASG;request::player;Alice;Bob
-CND;choose-dummy::available;true;false
-CND;dummy-perform::available;false;false
+ASG,request::player,Alice,Bob
+CND,choose-dummy::available,true,false
+CND,dummy-perform::available,false,false
 
-EXE;command;choose-dummy;
+EXE,command,choose-dummy,
 
-ASG;request::player;Alice
-CND;choose-dummy::available;false;false
-CND;player1::role;dummy;undefined
-CND;dummy-perform::available;true;false
+ASG,request::player,Alice
+CND,choose-dummy::available,false,false
+CND,player1::role,dummy,undefined
+CND,dummy-perform::available,true,false

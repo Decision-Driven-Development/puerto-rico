@@ -1,7 +1,7 @@
-CND;name-to-id::id;player-order::current
-CND;phase::role;mayor
-CND;${request::building}::owner;name-to-id::id
-CND;${request::building}::workers;>0
-OUT;available;true;false
-ASG;${request::building}::workers;${function::mayor-remove-worker}
-ASG;${name-to-id::id}::colonists;${function::mayor-increase-colonists}
+CND,name-to-id::id,player-order::current
+CND,phase::role,mayor
+CND,${request::building}::owner,name-to-id::id
+CND,${request::building}::workers,>0
+OUT,available,true,false
+ASG,${request::building}::workers,${function::mayor-remove-worker}
+ASG,${name-to-id::id}::colonists,${function::mayor-increase-colonists}

@@ -1,4 +1,4 @@
-CND;name-to-id::id;player-order::current
-CND;phase::role;dummy
-OUT;available;true;false
-ASG;${player-order::current}::acted;true;
+CND,name-to-id::id,player-order::current
+CND,phase::role,dummy
+OUT,available,true,false
+ASG,${player-order::current}::acted,true,

@@ -1,10 +1,10 @@
-HDR ;02 - старт игры          ;3 игрока - успех ;4 игрока - успех ;5 игроков - успех ;недостаточно игроков
-EXE ;include;create-3-players-table;create-4-players-table;create-5-players-table;00-create-table
-CND ;init-game::available     ;true             ;true             ;true              ;false
-EXE ;command                  ;init-game        ;init-game        ;init-game         ;
-CND ;init-game::available     ;false            ;false            ;false             ;false
-CND ;player1::name            ;Alice            ;Alice            ;Alice             ;
-CND ;player2::name            ;Bob              ;Bob              ;Bob               ;
-CND ;player3::name            ;Charlie          ;Charlie          ;Charlie           ;
-CND ;player4::name            ;undefined        ;David            ;David             ;
-CND ;player5::name            ;undefined        ;undefined        ;Eve               ;
+HDR ,02 - старт игры          ,3 игрока - успех ,4 игрока - успех ,5 игроков - успех ,недостаточно игроков
+EXE ,include,create-3-players-table,create-4-players-table,create-5-players-table,00-create-table
+CND ,init-game::available     ,true             ,true             ,true              ,false
+EXE ,command                  ,init-game        ,init-game        ,init-game         ,
+CND ,init-game::available     ,false            ,false            ,false             ,false
+CND ,player1::name            ,Alice            ,Alice            ,Alice             ,
+CND ,player2::name            ,Bob              ,Bob              ,Bob               ,
+CND ,player3::name            ,Charlie          ,Charlie          ,Charlie           ,
+CND ,player4::name            ,undefined        ,David            ,David             ,
+CND ,player5::name            ,undefined        ,undefined        ,Eve               ,
