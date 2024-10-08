@@ -1,15 +1,16 @@
-HDR ;Строитель - Мэрия          ;Привилегия + 4 каменоломни ;Привилегия + 3 каменоломни
-EXE ;include                    ;02-init-game               ;02-init-game
-ASG ;request::player            ;Alice                      ;Alice
-EXE ;command                    ;choose-builder             ;choose-builder
-ASG ;request::player            ;Alice                      ;Alice
-EXE ;command                    ;                           ;
-ASG ;request::player            ;                           ;
-EXE ;include                    ;4-quarries-to-Alice        ;3-quarries-to-Alice
-ASG ;player1::coins             ;5                          ;10                         ;
-CND ;build-city-hall::available ;true                       ;true
-EXE ;command                    ;build-city-hall            ;build-city-hall
-CND ;player1::coins             ;0                          ;4
-CND ;player2::coins             ;2                          ;2
-CND ;player1::buildings         ;[plantation22, cityHall]   ;[plantation22, cityHall]
-CND ;player2::buildings         ;[plantation23]             ;[plantation23]
+HDR ;Строитель - Мэрия          ;Привилегия + 4 каменоломни ;Привилегия + 3 каменоломни ;Привилегия + 2 каменоломни ;Привилегия + 1 каменоломня ;Только привилегия        ;4 каменоломни            ;3 каменоломни            ;2 каменоломни            ;1 каменоломня            ;Обычная покупка
+EXE ;include                    ;02-init-game               ;02-init-game               ;02-init-game               ;02-init-game               ;02-init-game             ;02-init-game             ;02-init-game             ;02-init-game             ;02-init-game             ;02-init-game
+ASG ;request::player            ;Alice                      ;Alice                      ;Alice                      ;Alice                      ;Alice                    ;Alice                    ;Alice                    ;Alice                    ;Alice                    ;Alice
+EXE ;command                    ;choose-builder             ;choose-builder             ;choose-builder             ;choose-builder             ;choose-builder           ;choose-builder           ;choose-builder           ;choose-builder           ;choose-builder           ;choose-builder
+ASG ;request::player            ;Alice                      ;Alice                      ;Alice                      ;Alice                      ;Alice                    ;Alice                    ;Alice                    ;Alice                    ;Alice                    ;Alice
+EXE ;command                    ;                           ;                           ;                           ;                           ;                         ;builder-perform          ;builder-perform          ;builder-perform          ;builder-perform          ;builder-perform
+ASG ;request::player            ;                           ;                           ;                           ;                           ;                         ;Bob                      ;Bob                      ;Bob                      ;Bob                      ;Bob
+EXE ;include                    ;4-quarries-to-Alice        ;3-quarries-to-Alice        ;2-quarries-to-Alice        ;1-quarry-to-Alice          ;                         ;4-quarries-to-Bob        ;3-quarries-to-Bob        ;2-quarries-to-Bob        ;1-quarry-to-Bob          ;
+ASG ;player1::coins             ;10                         ;10                         ;10                         ;10                         ;10                       ;10                       ;10                       ;10                       ;10                       ;10
+ASG ;player2::coins             ;10                         ;10                         ;10                         ;10                         ;10                       ;10                       ;10                       ;10                       ;10                       ;10
+CND ;build-city-hall::available ;true                       ;true                       ;true                       ;true                       ;true                     ;true                     ;true                     ;true                     ;true                     ;true
+EXE ;command                    ;build-city-hall            ;build-city-hall            ;build-city-hall            ;build-city-hall            ;build-city-hall          ;build-city-hall          ;build-city-hall          ;build-city-hall          ;build-city-hall          ;build-city-hall
+CND ;player1::coins             ;5                          ;4                          ;3                          ;2                          ;1                        ;10                       ;10                       ;10                       ;10                       ;10
+CND ;player2::coins             ;10                         ;10                         ;10                         ;10                         ;10                       ;4                        ;3                        ;2                        ;1                        ;0
+CND ;player1::buildings         ;[plantation22, cityHall]   ;[plantation22, cityHall]   ;[plantation22, cityHall]   ;[plantation22, cityHall]   ;[plantation22, cityHall] ;[plantation22]           ;[plantation22]           ;[plantation22]           ;[plantation22]           ;[plantation22]
+CND ;player2::buildings         ;[plantation23]             ;[plantation23]             ;[plantation23]             ;[plantation23]             ;[plantation23]           ;[plantation23, cityHall] ;[plantation23, cityHall] ;[plantation23, cityHall] ;[plantation23, cityHall] ;[plantation23, cityHall]
