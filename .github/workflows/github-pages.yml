@@ -28,15 +28,16 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4.2.1
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@v1.180.1
         with:
           # Not needed with a .ruby-version file
           ruby-version: "3.2.3"
           # Runs 'bundle install' and caches installed gems automatically
           bundler-cache: true
+          working-directory: ./docs
 
       - name: Version info
         run: |
@@ -46,26 +47,29 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v1
+        uses: actions/configure-pages@v5
 
       - name: Checking Jekyll configuration
         run: bundle exec jekyll doctor
+        working-directory: ./docs
 
-      - name: Build with Jekyll
+      - name: Building Jekyll site
         # Defaults output to '/_site'
-        run: bundle exec jekyll build --baseurl ${{ steps.pages.outputs.base_path }} --profile --trace --source docs
+        run: bundle exec jekyll build --baseurl ${{ steps.pages.outputs.base_path }} --profile --trace --destination ../_site
         env:
           JEKYLL_ENV: production
+        working-directory: ./docs
 
       - name: Upload artifact
         # This will automatically upload an artifact from the '/_site' directory
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3.0.1
         if: ${{ success() && github.ref == 'refs/heads/gh-pages' }}
         with:
           path: ./_site/
 
       - name: Cleaning up
         run: bundle exec jekyll clean
+        working-directory: ./docs
 
   # Deployment job
   deploy:
@@ -79,6 +83,6 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4.0.5
         if: ${{ success() }}
 
