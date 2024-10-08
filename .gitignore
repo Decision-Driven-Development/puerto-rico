@@ -1,1 +1,7 @@
 /.idea/
+
+# Jekyll and ruby stuff #
+# #######################
+docs/_site/
+docs/.sass_cache/
+docs/.jekyll-cache/
