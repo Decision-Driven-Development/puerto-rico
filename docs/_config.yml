@@ -13,3 +13,5 @@ minima:
   date_format: "%Y-%m-%d %H:%M"
 disqus:
   shortname: puerto-rico-1
+plugins:
+  - jekyll-gist
